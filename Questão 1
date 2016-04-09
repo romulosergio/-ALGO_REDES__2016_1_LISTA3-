@@ -1,0 +1,21 @@
+preço_produtos=list[[int(input("digite o preço do primeiro produto: ")), 
+					int(input("digite o preço do segundo produto: ")),	
+					int(input("digite o preço do terceiro produto: ")), 
+					int(input("digite o preço do quarto produto: ")), 
+					int(input("digite o preço do quinto produto: "))]]
+
+cont_p_50=0
+cont_p_80=0
+cont_p_50_80=0
+
+cont_p_50=cont_p_50+1
+cont_p_80=cont_p_80+1
+cont_p_50_80=cont_p_50_80+1
+
+for preço in preços_produtos:
+	if preço<=50.00:
+		print(cont_p_50=cont_p_50+1)
+	if preço>50.00 and preço<80.00:
+		print(cont_p_80=cont_p_80+1)
+	if preço>=80.00:
+		print (cont_p_50_80=cont_p_50_80+1)
