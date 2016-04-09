@@ -1,0 +1,22 @@
+opiniao_filmes==list [input("digite a opiniao do primeiro espectador sobre o filme: "),
+					[input("digite a opiniao do segundo espectador sobre o filme: "),
+					[input("digite a opiniao do terceiro espectador sobre o filme: "),
+					[input("digite a opiniao do quanrto espectador sobre o filme: "),
+					[input("digite a opiniao do quinto espectador sobre o filme: ")
+
+cont_o_otimo=0
+cont_o_bom=0
+cont_o_regular=0
+
+cont_o_otimo=cont_o_otimo+1
+cont_o_bom=cont_o_bom+1
+cont_o_regular=cont_o_regular=+1
+
+for opiniao in opiniao_filmes:
+	if opiniao=3:
+		print (cont_o_otimo=cont_o_otimo+1)
+	if opiniao=2:
+		print (cont_o_bom=cont_o_bom+1)
+	if opiniao=1:
+		print (cont_o_regular=cont_o_regular=+1)
+					
